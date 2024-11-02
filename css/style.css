@@ -397,7 +397,7 @@ footer .link-group a:hover{
 @media (max-width: 768px) {
     .home {
         background-attachment: scroll; /* Change to scroll for mobile */
-        background-size: contain; /* Contain the image */
+        background-size: cover; /* Contain the image */
         background-position: center top; /* Adjust positioning for better fit */
     }
 }
