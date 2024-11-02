@@ -486,5 +486,18 @@ footer .link-group a:hover{
     gap: 2rem; /* Reduce gap on mobile */
   }
 }
+@media (max-width: 576px) {
+  .home h2 {
+    font-size: 1.5rem; /* Smaller font size on mobile */
+  }
 
-  
+  .home p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+
+  /* Show the "See My Work" button on mobile */
+  .link.d-none {
+    display: inline-block !important;
+    margin-top: 1rem;
+  }
+}
