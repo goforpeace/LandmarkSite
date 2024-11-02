@@ -465,5 +465,26 @@ footer .link-group a:hover{
       font-size: 14px; /* Slightly smaller font size for mobile */
     }
   }
-  
+  /* Make sure logo and brand text fit on mobile */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  white-space: nowrap; /* Prevent text wrapping */
+  font-size: 1.25rem; /* Slightly smaller on mobile */
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .navbar-nav {
+    gap: 2rem; /* Reduce gap on mobile */
+  }
+}
+
   
