@@ -459,7 +459,7 @@ footer .link-group a:hover{
   /* Mobile View Adjustments */
   @media (max-width: 768px) {
     .whatsapp-button {
-      bottom: 80px; /* Adjust bottom position for mobile */
+      bottom: 200px; /* Adjust bottom position for mobile */
       right: 15px;  /* Adjust right position for mobile */
       padding: 10px; /* Adjust padding for mobile */
       font-size: 14px; /* Slightly smaller font size for mobile */
